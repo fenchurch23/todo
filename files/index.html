@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover" />
+<title>Running List</title>
+<style>
+  html, body { margin: 0; padding: 0; background: #EAE6DC; }
+  #root { min-height: 100vh; }
+</style>
+<script>
+  // ── Supabase config ──────────────────────────────────────────────
+  // Fill these in to turn on login + cross-device sync. Leave them as-is
+  // (or delete this whole <script> block) to run the app locally in this
+  // browser only, no login required.
+  //
+  // Find both values in your Supabase project: Settings → API.
+  //   Project URL        → window.SUPABASE_URL
+  //   anon / public key   → window.SUPABASE_ANON_KEY
+  // The anon key is meant to be public — it's safe to paste here. Access
+  // is actually controlled by Row Level Security on the database table.
+  window.SUPABASE_URL = "https://psmmwybjcvaavvzzcgvp.supabase.co";
+  window.SUPABASE_ANON_KEY = "sb_publishable_502UKKgtPRg5BX_4993aeA_KBsrjkfj";
+</script>
+</head>
+<body>
+<div id="root"></div>
+<script src="bundle.js"></script>
+</body>
+</html>
